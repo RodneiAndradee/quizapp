@@ -107,10 +107,10 @@ main {
 }
 
 main h2 {
-    margin-bottom: 40px;
     font-size: 40px;
     font-weight: 300;
     color: var(--primary-text-color);
+    margin-bottom: 40px;
 }
 
 main h2 strong {
@@ -196,5 +196,21 @@ main button:hover {
     .tema button div {
         width: 20px;
         height: 20px;
+    }
+
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2 {
+        font-size: 64px;
     }
 }
